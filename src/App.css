@@ -1,0 +1,39 @@
+/* .container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.container{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    box-shadow: 0px 3px 5px #282A35;
+}
+@media only screen and (min-width: 600px) {
+    .topic{
+        font-size: 60px;
+        font-stretch: expanded;
+        font-weight: 500;
+    }
+  }
+
+.explaination{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.card {
+    font-size: 14px;
+    border: none;
+  }
+  .card--image {
+    width: 100%;
+    border-radius: 9px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .card--stats {
+    display: flex;
+    align-items: center;
+  }
